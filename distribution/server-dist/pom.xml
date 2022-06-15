@@ -30,7 +30,7 @@
     <parent>
         <artifactId>keycloak-distribution-parent</artifactId>
         <groupId>org.keycloak</groupId>
-        <version>0.804.0</version>
+        <version>0.805.0</version>
     </parent>
 
     <artifactId>keycloak-server-dist</artifactId>

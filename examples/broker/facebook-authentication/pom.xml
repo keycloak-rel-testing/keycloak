@@ -23,7 +23,7 @@
     <parent>
         <artifactId>keycloak-examples-broker-parent</artifactId>
         <groupId>org.keycloak</groupId>
-        <version>0.805.0</version>
+        <version>0.807.0</version>
     </parent>
 
     <name>Keycloak Broker Examples - Facebook Authentication</name>

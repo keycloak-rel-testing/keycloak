@@ -39,7 +39,7 @@
             <type>jar</type>
         </dependency>
     </dependencies>
-
+<!--
     <repositories>
         <repository>
             <id>sonatype-snapshots</id>
@@ -54,5 +54,5 @@
             </releases>
         </repository>
     </repositories>
-
+-->
 </project>

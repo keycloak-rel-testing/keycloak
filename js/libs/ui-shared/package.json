@@ -1,6 +1,6 @@
 {
   "name": "@keycloak/keycloak-ui-shared",
-  "version": "999.0.0-SNAPSHOT",
+  "version": "2024.12.12-01",
   "type": "module",
   "main": "./dist/keycloak-ui-shared.js",
   "types": "./dist/keycloak-ui-shared.d.ts",

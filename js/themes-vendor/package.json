@@ -7,7 +7,7 @@
     "build:rewrite-import": "node scripts/rewrite-imports.js"
   },
   "dependencies": {
-    "@noble/hashes": "^1.6.1",
+    "@noble/hashes": "^1.7.0",
     "@patternfly-v5/patternfly": "npm:@patternfly/patternfly@^5.4.2",
     "@patternfly/patternfly": "^4.224.5",
     "patternfly": "^3.59.5",

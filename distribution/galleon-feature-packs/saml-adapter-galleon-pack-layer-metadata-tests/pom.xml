@@ -19,7 +19,7 @@
     <parent>
         <groupId>org.keycloak</groupId>
         <artifactId>galleon-feature-packs-parent</artifactId>
-        <version>999.0.0-SNAPSHOT</version>
+        <version>2025.06.02-0001</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>

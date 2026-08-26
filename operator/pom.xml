@@ -24,6 +24,7 @@
         <quarkus.docker.build-args.KEYCLOAK_VERSION>${project.version}</quarkus.docker.build-args.KEYCLOAK_VERSION>
         <quarkus.operator-sdk.generate-with-watched-namespaces>JOSDK_WATCH_CURRENT</quarkus.operator-sdk.generate-with-watched-namespaces>
         <kustomize.namespace>keycloak</kustomize.namespace>
+        <quarkus.helm.name>keycloak-operator</quarkus.helm.name>
     </properties>
 
     <dependencyManagement>
@@ -403,7 +404,7 @@
                         <configuration>
                             <executable>${basedir}/scripts/post-process-helm-chart.sh</executable>
                             <arguments>
-                                <argument>${project.build.directory}/helm/kubernetes/keycloak-operator</argument>
+                                <argument>${project.build.directory}/helm/kubernetes/${quarkus.helm.name}</argument>
                             </arguments>
                         </configuration>
                     </execution>
